@@ -11,7 +11,7 @@ const TransactionRow = ({ transaction: { type, amount, balance } }) => (
 
 /** Displays a table of the user's transaction history. */
 export default function TransactionHistory() {
-  // TODO: Get the transaction history from the Redux store using the useSelector hook
+  // TODO: Get the transaction history from the Redux store using the useSelector hook how?????
   const history = [];
 
   return (
@@ -27,8 +27,8 @@ export default function TransactionHistory() {
         </thead>
         <tbody>
           {/* TODO
-          Map over the transactions in `history`
-          to render the appropriate `TransactionRow`s
+          Map over the transactions in `history` how?
+          to render the appropriate `TransactionRow`s how?
           */}
         </tbody>
       </table>
